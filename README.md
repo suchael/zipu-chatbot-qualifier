@@ -41,7 +41,7 @@ A lightweight, intelligent **finance assistant** built with **React** and simple
 ## 🛠️ How to Run
 
 ```bash
-git clone https://github.com/your-username/zipu-chatbot.git
+git clone https://github.com/suchael/zipu-chatbot-qualifier.git
 cd zipu-chatbot
 npm install
 npm run dev
