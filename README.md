@@ -34,7 +34,7 @@ A lightweight, intelligent **finance assistant** built with **React** and simple
 
 ## 📸 Preview
 
-<img src="./public/Screenshot (171).png" alt="Zipu Chatbot Screenshot" style="max-width: 500px; width: 100%; border-radius: 10px;" />
+<img src="./public/Screenshot (171).png" alt="Zipu Chatbot Screenshot" style="width=300; border-radius: 10px;" />
 
 ---
 
