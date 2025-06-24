@@ -384,7 +384,7 @@ export const handleMessage = async (input, context = {}) => {
     }
 
     return {
-      reply: `✅ Airtime purchase confirmed: ₦${amount} for ${network.toUpperCase()}.`,
+      reply: `✅ Airtime purchase successful: \n₦${amount} for ${network.toUpperCase()}.`,
       updatedContext: {},
     };
   }
