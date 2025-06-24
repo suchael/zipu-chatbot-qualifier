@@ -45,3 +45,34 @@ git clone https://github.com/suchael/zipu-chatbot-qualifier.git
 cd zipu-chatbot
 npm install
 npm run dev
+
+
+> 💡 **Default PIN for all transactions:** `1234`  
+> 🔐 Bot blocks after 3 failed attempts.
+
+
+## 💬 Example Prompts
+
+Here are some messages the chatbot understands:
+
+### Airtime Recharge
+- `"Buy ₦500 airtime for MTN"`
+- `"Recharge 1k Glo"`
+- `"Send 200 naira to my number"`
+
+### Send Money
+- `"Send ₦5,000 to Chioma Opay"`
+- `"Transfer 2k to John GTBank"`
+
+### Crypto Transactions
+- `"Buy ₦10,000 worth of USDT"`
+- `"Get me Solana worth ₦5k"`
+
+### Check Balances
+- `"What’s my balance?"`
+- `"Check my crypto wallet"`
+
+### Pidgin / Typos (Bonus)
+- `"Abeg send me 1k airtim"`
+- `"By MTN 500"`  
+*(Handled gracefully)*

@@ -321,6 +321,27 @@ export const handleMessage = async (input, context = {}) => {
   // New Intents
   // ------------------------
 
+  // Greetings
+  if (
+    [
+      "hi",
+      "hello",
+      "hey",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "good day",
+      "What's up",
+      "What can you do",
+      "Tell me about you",
+    ].some((greet) => msg.includes(greet))
+  ) {
+    return {
+      reply: `👋 Hello! I'm Zipu 🤖 — your smart finance assistant.\n\nI can help you with:\n• Buying airtime 📱\n• Sending money 💸\n• Buying crypto 💰\n• Checking balances 🧾\n\nHow can I assist you today?`,
+      updatedContext,
+    };
+  }
+
   // Airtime
   if (msg.includes("airtime") || msg.includes("recharge")) {
     const amount = extractAmount(msg);
@@ -424,7 +445,6 @@ export const handleMessage = async (input, context = {}) => {
     };
   }
 
-  // Buy crypto
   // Buy crypto (start conversation)
   if (
     msg.includes("buy") &&
