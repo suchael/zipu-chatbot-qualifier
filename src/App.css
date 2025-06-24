@@ -6,12 +6,13 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+  overflow: hidden;
 }
 
 .chat-box {
   width: 100%;
   max-width: 420px;
-  height: 90vh;
+  height: 98vh;
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
